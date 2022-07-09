@@ -1,15 +1,32 @@
 
 import React, {useState} from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './components/footer'
 import Header from './components/header'
-import Navigation from './components/navigation'
-import Project from './project'
+import Contact from './components/contact'
+import Portfolio from './components/portfolio'
+import Home from './components/home'
 
 function App() {
-  
+  return (
+    <div>
+        <Header></Header>
+        <BrowserRouter>
+        <Routes>
+            <Route path='/home' element={<Home />}/>
+            <Route path='/contact' element={<Contact />}/>
+            <Route path='/portfolio' element={<Portfolio />}/>
+            {/* default page */}
+            <Route path='/' element={<Home />}/>
+        </Routes>
+        </BrowserRouter>
+
+        <Footer></Footer>
+    </div>
+  )
 }
 
-
+export default App
 
 
 
