@@ -1,12 +1,12 @@
 import React from 'react'
 import '../style.css'
+import resume from '../Alexander-resume.pdf'
 
 function Resume() {
     return (
         <div>
            View my resume here:
-           {/* AA - this download is 'working' but no file downloads */}
-           <a href='./Alexander-resume.pdf' download>Click to download</a>
+           <a href={resume} download>Click to download</a>
         </div>
     )
 }
