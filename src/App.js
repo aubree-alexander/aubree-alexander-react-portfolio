@@ -6,6 +6,7 @@ import Header from './components/header'
 import Contact from './components/contact'
 import Portfolio from './components/portfolio'
 import Home from './components/home'
+import Resume from './components/resume'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/portfolio' element={<Portfolio />}/>
             {/* default page */}
             <Route path='/' element={<Home />}/>
+            <Route path='/resume' element={<Resume />}/>
         </Routes>
         </BrowserRouter>
 
