@@ -5,7 +5,7 @@ import '../style.css'
 function Header() {
     return (
         <div>
-            <h1>This is a header.</h1>
+            <h1>Aubree Alexander</h1>
             <Navigation></Navigation>
         </div>
     )
