@@ -17,7 +17,7 @@ function Home() {
                             </p>
                     </div>
                 </section>
-                <div style={{ height: '1000px' }} />
+                <div style={{ height: '500px' }} />
             </Parallax>
         </div>
     )
