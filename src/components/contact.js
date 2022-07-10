@@ -3,28 +3,25 @@ import '../style.css'
 
 function Contact() {
     return (
-        <div>
-            <div id="contact" className ="contact">
-            <h3>Contact</h3>
-            </div>
-                <div className="contact-info">
-                    <ul>
-                        <li>
-                            <a href="mailto:aubree.alexander@gmail.com">aubree.alexander@gmail.com</a>
-                        </li>
-                        <li>
-                            608.692.5277
-                        </li>
-                        <li>
-                            <a href="https://github.com/aubree-alexander" target="_blank">GitHub</a>
-                        </li>
-                        <li>
-                            <a href='https://www.linkedin.com/in/aubree-alexander-223a3518a' target="blank">LinkedIn</a>
-                        </li>
-                    </ul>
+        <section className='text-center' id='contact-form'>
+            <h1 id='contact-me-text'>Contact me</h1>
+            <form id='contact-form' className='fade-in-text'>
+                <div className='col-md-3'>
+                    <label className='form-label'>Name:</label>
+                    <input type="text" class='form-control' name="name" defaultValue='enter name here' />
                 </div>
-            </div>
-    )
+                <div className='col-md-3'>
+                    <label className='form-label'>Email address:</label>
+                    <input type="email" class='form-control' name="email" defaultValue='enter email here' />
+                </div>
+                <div className='col-md-3'>
+                    <label className='form-label'>Message:</label>
+                    <textarea name="message" class='form-control' rows="5" defaultValue='enter message here' />
+                </div>
+                <button data-testid="button" type="submit" className='btn btn-primary'>Submit</button>
+            </form>
+        </section>
+  );
 }
 
 export default Contact

@@ -15,10 +15,10 @@ import '../style.css'
 function Footer() {
     return (
         <footer>
-        <div id="contact" class ="contact">
+        {/* <div id="contact" class ="contact">
             <h3>Contact</h3>
-        </div>
-            <div class="contact-info">
+        </div> */}
+            <div className="contact-info">
                 <ul>
                     
                     <li>

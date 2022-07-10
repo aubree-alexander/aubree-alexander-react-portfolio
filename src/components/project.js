@@ -3,13 +3,7 @@ import '../style.css'
 
 function Project() {
     return (
-        <section id="projects" className="projects">
-
-        <div className="project-section-title">
-            <h2>
-                Projects
-            </h2>
-        </div>
+        <section id="projects" className="projects fade-in-text">
 
         <div className="projects-gallery">
             

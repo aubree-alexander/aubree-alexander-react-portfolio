@@ -4,8 +4,10 @@ import '../style.css'
 
 function Portfolio() {
     return (
-        <div>
-            <h1>This is a portfolio.</h1>
+        <div id='my-projects'>
+            <div id='my-projects-title'>
+                <h1 className='fade-in-text'>My projects</h1>
+            </div>
             <Project></Project>
         </div>
     )

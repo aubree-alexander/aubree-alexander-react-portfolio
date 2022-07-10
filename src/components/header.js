@@ -4,8 +4,8 @@ import '../style.css'
 
 function Header() {
     return (
-        <div>
-            <h1>Aubree Alexander</h1>
+        <div className='text-center' id='header'>
+            <h1>Aubree Alexander, full-stack web developer</h1>
             <Navigation></Navigation>
         </div>
     )

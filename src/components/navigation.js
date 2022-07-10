@@ -3,11 +3,21 @@ import '../style.css'
 
 function Navigation() {
     return (
-        <div>
-            <a href='/home'>About Me</a>
-            <a href='/contact'>Contact</a>
-            <a href='/portfolio'>Portfolio</a>
-            <a href='/resume'>Resume</a>
+        <div id='navigation'>
+            <ul className='nav justify-content-center'>
+                <li className='nav-item p-2'>
+                    <a href='/home'>About Me</a>
+                </li>
+                <li className='nav-item p-2'>
+                    <a href='/contact'>Contact</a>
+                </li>
+                <li className='nav-item p-2'>
+                    <a href='/portfolio'>Portfolio</a>
+                </li>
+                <li className='nav-item p-2'>
+                    <a href='/resume'>Resume</a>
+                </li>
+            </ul>
         </div>
     )
 }

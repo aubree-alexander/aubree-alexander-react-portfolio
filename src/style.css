@@ -1,10 +1,11 @@
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
+
 
 :root {
     --dark-green: #6B705C;
@@ -18,6 +19,17 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+#header {
+    background-color: var(--light-green);
+}
+
+#header h1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+
 
 /*nav section*/
 
@@ -62,6 +74,10 @@ nav ul li a:hover {
     display: flex;
 }
 
+#about-me {
+    font-family: 'Barlow', sans-serif;
+}
+
 .about-me img {
     width: 35%;
     padding: 10px;
@@ -79,6 +95,24 @@ nav ul li a:hover {
     padding: 8px;
 }
 
+/*my projects intro*/
+#my-projects {
+    background-color: var(--peach)
+}
+
+#my-projects-title {
+    display: flex;
+    justify-content: center;
+}
+
+.fade-in-text {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 
 /*tile gallery*/ 
 
@@ -172,6 +206,31 @@ nav ul li a:hover {
     text-align: center;
     width: 100%;
     font-style: italic;
+}
+
+/*Contact page*/
+
+#contact-form {
+    background-color: var(--light-green)
+}
+
+#contact-me-text {
+    font-family: 'Barlow', sans-serif;
+}
+
+/*Resume page*/
+
+#resume-page {
+    background-color: var(--light-green)
+}
+
+/*AA - this isn'    t working */ 
+#resume-page p {
+    font-weight: bolder;
+}
+
+.card-columns {
+    column-count: 2;
 }
 
 
