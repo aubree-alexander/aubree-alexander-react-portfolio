@@ -14,13 +14,12 @@ import '../style.css'
 
 function Footer() {
     return (
-        <footer>
+        <footer className='position-sticky'>
         {/* <div id="contact" class ="contact">
             <h3>Contact</h3>
         </div> */}
-            <div className="contact-info">
+            <div className="contact-info py-2 sticky-bottom">
                 <ul>
-                    
                     <li>
                         <i class="fa-solid fa-envelope"></i>
                         <a href="mailto:aubree.alexander@gmail.com">aubree.alexander@gmail.com</a>

@@ -6,8 +6,8 @@ function Home() {
     return (
         <div>
             {/* <Parallax blur={0} bgImage="http://cdn.akc.org/content/article-body-image/siberian_husky_cute_puppies.jpg" bgImageAlt="the cat" strength={500}> */}
-                <section id="about-me" className="about-me">
-                    <div>
+                <section id="about-me" className="about-me py-5">
+                    <div className='fade-in-text'>
                         <img src="./assets/images/me.JPG" alt="Aubree Alexander" />
                     </div>
                     <div className="me-description">

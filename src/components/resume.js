@@ -4,9 +4,9 @@ import resume from '../Alexander-resume.pdf'
 
 function Resume() {
     return (
-        <div className='fade-in-text container' id='resume-page'>
-            <p id='skills-intro-text' className='text-center py-5'>I am able to work with the following: </p>
-            <ul className='text-center list-unstyled card-columns'>
+        <div className='container' id='resume-page'>
+            <p id='skills-intro-text' className='text-center py-5 fade-in-text'>I am able to work with the following: </p>
+            <ul className='text-center list-unstyled card-columns fade-in-text'>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Git</li>
@@ -22,7 +22,7 @@ function Resume() {
                 <li>Mongoose</li>
                 <li>React</li>
             </ul>
-        <div className='text-center py-5'>
+        <div className='text-center py-5 fade-in-text'>
            <p>View my full resume here: </p>
            <a href={resume} download>Click to download</a>
         </div>

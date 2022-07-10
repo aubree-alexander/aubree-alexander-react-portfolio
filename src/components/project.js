@@ -24,18 +24,18 @@ function Project() {
                             <h3 className="project-title">The Nasa Spirit</h3>
                         </div>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/aubree-alexander/social-network-api" target="_blank">
                         <div className="tile">
-                            <h3 className="project-title">Coming soon</h3>
+                            <h3 className="project-title">Social Network API</h3>
                         </div>
                     </a>
 
                 </div>
 
                 <div className="coming-soon-2">
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/aubree-alexander/tech-blog" target="_blank">
                         <div className="tile">
-                            <h3 className="project-title">Coming soon</h3>
+                            <h3 className="project-title">Tech Blog</h3>
                         </div>
                     </a>
                     <a href="#" target="_blank">
