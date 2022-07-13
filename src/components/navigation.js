@@ -12,15 +12,21 @@ function Navigation() {
                     About Me
                 </li>
                 </Link>
+                <Link to = '/contact'>
                 <li className='nav-item p-2'>
-                    <a href='/contact'>Contact</a>
+                    Contact
                 </li>
+                </Link>
+                <Link to ='/portfolio'>
                 <li className='nav-item p-2'>
-                    <a href='/portfolio'>Portfolio</a>
+                    Portfolio
                 </li>
+                </Link>
+                <Link to = '/resume'>
                 <li className='nav-item p-2'>
-                    <a href='/resume'>Resume</a>
+                    Resume
                 </li>
+                </Link>
             </ul>
         </div>
     )

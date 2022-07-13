@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <div id='my-projects'>
             <div id='my-projects-title'>
-                <h1 className='fade-in-text'>My projects</h1>
+                <h1 className='fade-in-text' id='my-projects-text'>My projects</h1>
             </div>
             <Project></Project>
         </div>

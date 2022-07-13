@@ -2,7 +2,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black!important
 }
 
@@ -14,7 +14,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100vh!important;
     width: 100vw;
     margin: 0px;
     padding: 0px;
@@ -121,7 +121,7 @@ nav ul li a {
 /*tile gallery*/ 
 
 /*AA - this isn't working*/
-#my-projects {
+#my-projects-text {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -156,7 +156,8 @@ nav ul li a {
     flex-direction: column;
 }
 
-.streamline-tile {
+.streamline-tile,
+.nasa-spirit-tile {
     display: flex;
 }
 
@@ -171,7 +172,14 @@ nav ul li a {
     background-image: url(../public/assets/images/the-nasa-spirit.png);
     background-size: cover;
     opacity: 0.7;
+    width: 825px;
 }
+
+/* #the-nasa-spirit {
+    background-image: url(../public/assets/images/the-nasa-spirit.png);
+    background-size: cover;
+    opacity: 0.7;
+} */
 
 #streamline:hover, #the-nasa-spirit:hover {
     opacity: 1;
@@ -181,12 +189,12 @@ nav ul li a {
     font-style: normal;
 }
 
-.coming-soon-1 {
+.small-tiles-1 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.coming-soon-2 {
+.small-tiles-2 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -233,11 +241,6 @@ nav ul li a {
     background-color: var(--light-green);
 }
 
-/*AA - this isn't working */ 
-#resume-page p {
-    font-weight: bolder;
-}
-
 .card-columns {
     column-count: 2;
 }
@@ -247,6 +250,15 @@ nav ul li a {
     margin-right: auto;
     margin-left: auto;
 }
+
+#skills-intro-text {
+    font-size: 22px;
+}
+
+#view-resume {
+    font-size: 22px;
+}
+
 
 /*footer*/ 
 

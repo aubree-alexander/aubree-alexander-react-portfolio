@@ -24,7 +24,7 @@ function Resume() {
                 <li>React</li>
             </ul>
         <div className='text-center py-5 fade-in-text'>
-           <p>View my full resume here: </p>
+           <p id='view-resume'>View my full resume here: </p>
            <a href={resume} download>Click to download</a>
         </div>
         </div>
