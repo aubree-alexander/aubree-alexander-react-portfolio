@@ -11,8 +11,8 @@ import Resume from './components/resume'
 function App() {
   return (
     <div>
-        <Header></Header>
         <BrowserRouter>
+        <Header></Header>
         <Routes>
             <Route path='/home' element={<Home />}/>
             <Route path='/contact' element={<Contact />}/>
@@ -22,8 +22,8 @@ function App() {
             <Route path='/resume' element={<Resume />}/>
         </Routes>
         </BrowserRouter>
-
         <Footer></Footer>
+
     </div>
   )
 }

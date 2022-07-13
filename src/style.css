@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: black!important
 }
 
 
@@ -50,8 +50,8 @@ nav ul {
     padding-right: 10px;
 }
 
-nav ul li {
-    padding: 10px;
+#navigation ul li {
+    border-radius: 25px;
 }
 
 nav ul li a {
@@ -59,12 +59,16 @@ nav ul li a {
     border-radius: 25px;
 }
 
-nav ul li a:hover {
-    background: var(--light-green);
+#navigation ul li:hover {
+    background: var(--dark-green);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
     transition: .6s ease;
 }
 
+#navigation ul li a:focus {
+    background: var(--dark-green);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+}
 
 /*about me section*/ 
 
@@ -226,10 +230,10 @@ nav ul li a:hover {
 /*Resume page*/
 
 #resume-page {
-    background-color: var(--light-green)
+    background-color: var(--light-green);
 }
 
-/*AA - this isn'    t working */ 
+/*AA - this isn't working */ 
 #resume-page p {
     font-weight: bolder;
 }
@@ -238,6 +242,11 @@ nav ul li a:hover {
     column-count: 2;
 }
 
+#resume-page ul {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /*footer*/ 
 
@@ -268,11 +277,22 @@ footer ul li {
     padding-top: 15px;
     margin: 0;
 }
+
+.bottom-stick {
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+
 .contact-info ul li:hover {
     background: var(--light-green);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
     transition: .6s ease;
 }
+
+
 
 
 
