@@ -44,6 +44,7 @@ function Project() {
             <div className="small-tiles-1">
 
                     <div className="tile">
+                        
                         <div className='p-4'>
                             <h3 className='tile-text-background'>Tech Blog</h3>
                         </div>

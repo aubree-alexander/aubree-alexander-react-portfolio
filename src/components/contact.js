@@ -40,25 +40,31 @@ function Contact() {
 
     return (
         <section className='text-center' id='contact-form'>
+            
             <h1 id='contact-me-text'>Contact me</h1>
-            <form id='contact-form' onSubmit={handleFormSubmit} className='fade-in-text'>
-                <div className='col-md-3'>
-                    <label className='form-label'>Name:</label>
-                    <input type="text" class='form-control' name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div className='col-md-3'>
-                    <label className='form-label'>Email address:</label>
-                    <input type="email" class='form-control' name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div className='col-md-3'>
-                    <label className='form-label'>Message:</label>
-                    <textarea name="message" class='form-control' rows="5" defaultValue={message} onBlur={handleChange} />
-                </div>
-                {errorMessage && (
-                    <h3>{errorMessage}</h3>
-                )}
-                <button data-testid="button" type="submit" className='btn btn-primary'>Submit</button>
-            </form>
+        
+            <div id='form'>
+                <form onSubmit={handleFormSubmit} className='fade-in-text'>
+                    <div>
+                        <label className='form-label'>Name:</label>
+                        <input type="text" class='form-control' name="name" defaultValue={name} onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label className='form-label'>Email address:</label>
+                        <input type="email" class='form-control' name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label className='form-label'>Message:</label>
+                        <textarea name="message" class='form-control' rows="5" defaultValue={message} onBlur={handleChange} />
+                    </div>
+                    <div id='error-message'>
+                        {errorMessage && (
+                            <h3>{errorMessage}</h3>
+                        )}
+                    </div>
+                    <button data-testid="button" type="submit" className='btn m-3' id='submitBtn'>Submit</button>
+                </form>
+            </div>
         </section>
   );
 }
