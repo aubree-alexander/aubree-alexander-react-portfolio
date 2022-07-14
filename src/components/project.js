@@ -8,40 +8,50 @@ function Project() {
         <div className="projects-gallery">
             
             {/* streamline project */}
-            <div className="streamline-tile">
-                    <div id="streamline" className="tile">
-                        <h3>streamline</h3>
-                        <div>
-                            <a href='https://peaceful-earth-43575.herokuapp.com/' target='_blank'>Deployed application</a>
-                            <a href='https://github.com/aubree-alexander/streamline' target='_blank'>GitHub repo</a>
-                        </div>
+           
+            <div id="streamline" className="tile">
+                <div>
+                    <div className='p-4'>
+                        <h3 className='tile-text-background'>streamline</h3>
                     </div>
+                    <div>
+                        <a href='https://peaceful-earth-43575.herokuapp.com/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/streamline' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                    </div>
+                </div>
             </div>
 
             {/* nasa spirit project */}
-            <div className="nasa-spirit-tile">
-                    <div id="the-nasa-spirit" className="tile">
-                        <h3>The NASA Spirit</h3>
-                        <div>
-                            <a href='https://aubree-alexander.github.io/the-nasa-spirit/' target='_blank'>Deployed application</a>
-                            <a href='https://github.com/aubree-alexander/the-nasa-spirit' target='_blank'>GitHub repo</a>
-                        </div>
+            
+            <div id="the-nasa-spirit" className="tile">
+                <div>
+                    <div className='p-4'>
+                        <h3 className='tile-text-background'>The NASA Spirit</h3>
                     </div>
+                    <div>
+                        <a href='https://aubree-alexander.github.io/the-nasa-spirit/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/the-nasa-spirit' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                    </div>
+                </div>
             </div>
+            
 
 
             {/* smaller tile section */}
             <div className="small-tiles">
 
                 {/* tech blog */}
-                <div className="small-tiles-1">
-                        <div className="tile">
-                            <h3>Tech Blog</h3>
-                            <div>
-                                <a href='https://github.com/aubree-alexander/tech-blog' target='_blank'>Deployed application</a>
-                                <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank'>GitHub repo</a>
-                            </div>
+            <div className="small-tiles-1">
+
+                    <div className="tile">
+                        <div className='p-4'>
+                            <h3 className='tile-text-background'>Tech Blog</h3>
                         </div>
+                        <div>
+                            <a href='https://github.com/aubree-alexander/tech-blog' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                            <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                        </div>
+                    </div>
 
 
                 {/* weather dashboard */}
