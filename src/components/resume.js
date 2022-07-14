@@ -5,7 +5,7 @@ import resume from '../Alexander-resume.pdf'
 //AA - w-100 is not working below
 function Resume() {
     return (
-        <div id='resume-page'>
+        <div id='resume-page' className='page-content'>
             <p id='skills-intro-text' className='text-center py-5 fade-in-text'>I am able to work with the following: </p>
             <ul className='text-center list-unstyled card-columns fade-in-text'>
                 <li>HTML</li>

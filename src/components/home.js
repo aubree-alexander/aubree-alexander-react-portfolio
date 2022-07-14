@@ -4,7 +4,7 @@ import '../style.css'
 
 function Home() {
     return (
-        <div>
+        <div class='page-content'>
             {/* <Parallax blur={0} bgImage="http://cdn.akc.org/content/article-body-image/siberian_husky_cute_puppies.jpg" bgImageAlt="the cat" strength={500}> */}
                 <section id="about-me" className="about-me py-5">
                     <div className='fade-in-text'>

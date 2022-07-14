@@ -13,11 +13,9 @@
     --peach: #DDBEA9;
 }
 
-body {
-    height: 100vh!important;
-    width: 100vw;
-    margin: 0px;
-    padding: 0px;
+.page-content {
+    height: 100vh;
+    background-color: var(--light-green)
 }
 
 #header {
