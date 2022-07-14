@@ -2,7 +2,6 @@ import React from 'react'
 import '../style.css'
 import resume from '../Alexander-resume.pdf'
 
-//AA - w-100 is not working below
 function Resume() {
     return (
         <div id='resume-page' className='page-content'>

@@ -19,7 +19,9 @@
 }
 
 #header {
-    background-color: var(--light-green);
+    /* background-color: var(--light-green); */
+    background-color: rgba(183, 183, 164, 0.7)
+    /* opacity: 0.7; */
 }
 
 #header h1 {
@@ -72,7 +74,7 @@ nav ul li a {
 /*about me section*/ 
 
 .about-me {
-    background-color: var(--light-green);
+    /* background-color: var(--light-green); */
     text-align: center;
     display: flex;
 }
@@ -284,6 +286,7 @@ nav ul li a {
 
 footer {
     background-color: var(--dark-green);
+    background-color: rgba(107, 112, 92, 0.7)
 }
 
 footer .contact {
