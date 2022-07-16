@@ -2,16 +2,6 @@ import React from 'react'
 import '../style.css'
 
 
-// import ReactDOM from 'react-dom'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faGithub } from '@fortawesome/free-solid-svg-icons'
-
-
-
-// const element = <FontAwesomeIcon icon={faGithub} />
-
-
-
 function Footer() {
     return (
         <footer className='card mt-auto fixed-bottom d-flex text-center'>

@@ -2,7 +2,6 @@ import React from 'react'
 import '../style.css'
 import {NavLink} from 'react-router-dom'
 
-//AA - DO THE NavLink PORTION FOR ALL NAV ITEMS
 function Navigation() {
     return (
         <div id='navigation'>
