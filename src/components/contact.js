@@ -1,7 +1,7 @@
 import { React, useState }  from 'react'
 import '../style.css'
+import { Parallax } from 'react-parallax'
 
-//AA - in section classname below - tried d-flex justify-content-center
 function Contact() {
 
     //initial form state
@@ -11,7 +11,6 @@ function Contact() {
         message: ''
     })
     //reset form state so we can target the inputs that we want.
-    //create destructured vars with which we can pass vals into use setformstate on 27
     const {name, email, message} = formState
 
     //error message state
@@ -19,8 +18,6 @@ function Contact() {
 
     //handle change
     //if nothing in imput, set error message.
-    //e.target.name is the input that we're typing into.
-    //setformstate - first part says change whole form state, second part targets the name attribute on each input and grabs input's value when you type into it.
     const handleChange = (e) => {
         if (!e.target.value.length) {
             seterrorMessage(`${e.target.name} is required.`)
@@ -41,25 +38,28 @@ function Contact() {
     return (
 
         
+
         <section className='text-center page-content' id='contact-form'>
+
+<Parallax blur={0} bgImage="https://img.freepik.com/premium-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=2000" bgImageAlt="the cat" strength={500}>
             
-            <h1 id='contact-me-text'>Contact me</h1>
+            <h1 id='contact-me-text' className='pt-3'>Contact me</h1>
         
             <div id='form'>
                 <form onSubmit={handleFormSubmit} className='fade-in-text'>
-                    <div>
+                    <div className='pb-3'>
                         <label className='form-label'>Name:</label>
-                        <input type="text" class='form-control' name="name" defaultValue={name} onBlur={handleChange} />
+                        <input type="text" className='form-control' name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
-                    <div>
+                    <div className='pb-3'>
                         <label className='form-label'>Email address:</label>
-                        <input type="email" class='form-control' name="email" defaultValue={email} onBlur={handleChange} />
+                        <input type="email" className='form-control' name="email" defaultValue={email} onBlur={handleChange} />
                     </div>
                     <div>
                         <label className='form-label'>Message:</label>
-                        <textarea name="message" class='form-control' rows="5" defaultValue={message} onBlur={handleChange} />
+                        <textarea name="message" className='form-control' rows="5" defaultValue={message} onBlur={handleChange} />
                     </div>
-                    <div id='error-message'>
+                    <div id='error-message' className='p-3'>
                         {errorMessage && (
                             <h3>{errorMessage}</h3>
                         )}
@@ -67,6 +67,9 @@ function Contact() {
                     <button data-testid="button" type="submit" className='btn m-3' id='submitBtn'>Submit</button>
                 </form>
             </div>
+
+            <div style={{ height: '500px' }} />
+            </Parallax>
         </section>
   );
 }

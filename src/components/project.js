@@ -52,8 +52,8 @@ function Project() {
                         <h3 className='tile-text-background'>Tech Blog</h3>
                     </div>
                     <div>
-                        <a href='https://github.com/aubree-alexander/tech-blog' target='_blank' className='tile-text-background p-2'>Deployed application</a>
-                        <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                        <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/tech-blog' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
                     </div>
                 </div>
 
