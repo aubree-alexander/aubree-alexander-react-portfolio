@@ -220,8 +220,6 @@ nav ul li a {
     width: 400px;
     height: 200px;
     border: 2px solid;
-    /* position: relative; */
-    background-color: white;
     opacity: 0.5;
 }
 
@@ -313,11 +311,13 @@ footer {
     position: absolute;
     background-color: rgba(107, 112, 92, 0.7);
     width: 100%;
+    opacity: 0.7;
 }
 
 .contact-info ul li:hover {
     background: radial-gradient(var(--light-green), var(--dark-green));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+    opacity: 1;
     transition: .5s ease;
 }
 
@@ -325,60 +325,40 @@ footer {
 
 
 
-
-
-
-
-
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .about-me {
+    .projects-gallery {
+        --num-cols: 1;
+        --row-height: 300px;
+        box-sizing: border-box;
+        padding: 16px;
         display: flex;
-        padding-bottom: 50px;
-        padding-right: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
-    .about-me img {
-        padding-top: 50px;
+    .tile {
+        width: 400px;
+    }
+
+    #streamline, 
+    #the-nasa-spirit {
+        width: 400px;
+        justify-content: center;
     }
 }
     
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) { 
-    body {
-        overflow-x: hidden;
+    .tile {
+        width: 400px;
     }
 
-    .about-me {
-        display: flex;
-        padding-bottom: 50px;
-        padding-right: 20px;
-        align-items: center;
+    #streamline, 
+    #the-nasa-spirit {
+        width: 400px;
+        justify-content: center;
     }
 
-}
-    
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-    .projects {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .contact-info {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .contact-info ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
