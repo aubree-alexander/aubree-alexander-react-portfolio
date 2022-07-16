@@ -42,58 +42,63 @@ function Project() {
 
 
             {/* smaller tile section */}
-            <div className="small-tiles">
 
-                {/* tech blog */}
             <div className="small-tiles-1">
 
-                    <div className="tile">
-                        
-                        <div className='p-4'>
-                            <h3 className='tile-text-background'>Tech Blog</h3>
-                        </div>
-                        <div>
-                            <a href='https://github.com/aubree-alexander/tech-blog' target='_blank' className='tile-text-background p-2'>Deployed application</a>
-                            <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
-                        </div>
+                
+                {/* tech blog */}
+                <div id='tech-blog' className="tile">
+                    <div className='p-2'>
+                        <h3 className='tile-text-background'>Tech Blog</h3>
                     </div>
+                    <div>
+                        <a href='https://github.com/aubree-alexander/tech-blog' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                    </div>
+                </div>
 
 
                 {/* weather dashboard */}
-                <div className="tile">
-                    <h3>Weather Dashboard</h3>
-                    <div>
-                        <a href='https://aubree-alexander.github.io/weather-dashboard/' target='_blank'>Deployed application</a>
-                        <a href='https://github.com/aubree-alexander/weather-dashboard' target='_blank'>GitHub repo</a>
+                <div id='weather-dashboard' className="tile">
+                    <div className='p-2'>
+                        <h3 className='tile-text-background'>Weather Dashboard</h3>
                     </div>
-                </div>
-
-                </div>
-
-                {/* Workday scheduler */}
-                <div className="small-tiles-2">
-                        <div className="tile">
-                            <h3>Workday Scheduler</h3>
-                            <div>
-                                <a href='https://aubree-alexander.github.io/work-day-scheduler/' target='_blank'>Deployed application</a>
-                                <a href='https://github.com/aubree-alexander/work-day-scheduler' target='_blank'>GitHub repo</a>
-                            </div>
-                        </div>
-
-
-
-                {/* Deep Thoughts */}
-                <div className="tile">
-                    <h3 className="project-title">Deep Thoughts</h3>
                     <div>
-                        <a href='#' target='_blank'>Deployed application</a>
-                        <a href='https://github.com/aubree-alexander/deep-thoughts' target='_blank'>GitHub repo</a>
+                        <a href='https://aubree-alexander.github.io/weather-dashboard/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/weather-dashboard' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
                     </div>
-                </div>
-
                 </div>
 
             </div>
+
+                
+            <div className="small-tiles-2">
+
+                {/* Workday scheduler */}
+                <div id='workday-scheduler' className="tile">
+                    <div  className='p-2'>
+                        <h3 className='tile-text-background'>Workday Scheduler</h3>
+                    </div>
+                    <div>
+                        <a href='https://aubree-alexander.github.io/work-day-scheduler/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/work-day-scheduler' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                    </div>
+                </div>
+
+
+                {/* Deep Thoughts */}
+                <div id='deep-thoughts' className="tile">
+                    <div className='p-2'>
+                        <h3 className='tile-text-background'>Deep Thoughts</h3>
+                    </div>
+                    <div>
+                        <a href='#' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/deep-thoughts' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                    </div>
+                </div>
+
+                </div>
+
         </div>
 
     </section>

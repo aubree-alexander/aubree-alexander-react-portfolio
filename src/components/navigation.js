@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom'
 function Navigation() {
     return (
         <div id='navigation'>
-            <ul className='nav justify-content-center'>
+            <ul className='nav justify-content-center p-3'>
                 <NavLink to = '/home'>
                     <li className='nav-item p-2'>
                         About Me

@@ -176,6 +176,30 @@ nav ul li a {
     width: 825px;
 }
 
+#tech-blog {
+    background-image: url('../public/assets/images/tech-blog.png');
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#weather-dashboard {
+    background-image: url(../public/assets/images/weather-dashboard.png);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#workday-scheduler {
+    background-image: url(../public/assets/images/workday-scheduler.png);
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#deep-thoughts {
+    background-image: url(../public/assets/images/deep-thoughts.png);
+    background-size: cover;
+    opacity: 0.7;
+}
+
 .tile-text-background {
     background: radial-gradient(var(--light-green), var(--dark-green));
     border-radius: 25px;
