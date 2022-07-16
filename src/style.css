@@ -16,6 +16,11 @@
     height: 100vh;
 }
 
+
+.page-content-short {
+    height: 70vh;
+}
+
 #header {
     background-color: rgba(183, 183, 164, 0.7)
 }
@@ -80,10 +85,6 @@ nav ul li a {
     font-family: 'Barlow', sans-serif;
 }
 
-.me-description {
-    margin-top: 75px;
-}
-
 .me-description h1 {
     border-bottom: 2px solid;
     padding: 8px;
@@ -113,7 +114,6 @@ nav ul li a {
 }
 
 .projects {
-    /* background-color: var(--light-green); */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -238,10 +238,6 @@ nav ul li a {
 
 /*Contact page*/
 
-#contact-form {
-    background-color: var(--light-green)
-}
-
 #contact-me-text {
     font-family: 'Barlow', sans-serif;
 }
@@ -289,11 +285,6 @@ nav ul li a {
 
 /*footer*/ 
 
-footer {
-    background-color: var(--dark-green);
-    background-color: rgba(107, 112, 92, 0.7)
-}
-
 footer .contact {
     text-align: center;
 }
@@ -318,14 +309,13 @@ footer ul li {
     margin: 0;
 }
 
-.bottom-stick {
+footer {
     position: absolute;
-    bottom: 0;
-
+    background-color: rgba(107, 112, 92, 0.7);
+    width: 100%;
 }
 
 .contact-info ul li:hover {
-    /* background: var(--light-green); */
     background: radial-gradient(var(--light-green), var(--dark-green));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
     transition: .5s ease;

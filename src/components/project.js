@@ -40,7 +40,6 @@ function Project() {
             </div>
             
 
-
             {/* smaller tile section */}
 
             <div className="small-tiles-1">
@@ -103,7 +102,7 @@ function Project() {
 
     </section>
 
-    <div style={{ height: '500px' }} />
+    <div style={{ height: '150px' }} />
     </Parallax>
     )
 }

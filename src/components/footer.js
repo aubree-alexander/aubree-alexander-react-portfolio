@@ -14,11 +14,8 @@ import '../style.css'
 
 function Footer() {
     return (
-        <footer className='bottom-stick position-sticky'>
-        {/* <div id="contact" class ="contact">
-            <h3>Contact</h3>
-        </div> */}
-            <div className="contact-info py-2 sticky-bottom">
+        <footer className=''>
+            <div className="contact-info py-2">
                 <ul>
                     <li>
                         <i class="fa-solid fa-envelope p-2"></i>

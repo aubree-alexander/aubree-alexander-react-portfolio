@@ -6,9 +6,9 @@ import { Parallax } from 'react-parallax'
 function Resume() {
     return (
 
-        <Parallax blur={0} bgImage="https://img.freepik.com/premium-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=2000" bgImageAlt="the cat" strength={500}>
+        <Parallax blur={0} bgImage="https://img.freepik.com/premium-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=2000" bgImageAlt="marble" strength={500}>
 
-        <div id='resume-page' className='page-content'>
+        <div id='resume-page' className='page-content-short'>
             <p id='skills-intro-text' className='text-center py-5 fade-in-text'>I am able to work with the following: </p>
             <ul className='text-center list-unstyled card-columns fade-in-text'>
                 <li>HTML</li>
@@ -32,7 +32,7 @@ function Resume() {
         </div>
         </div>
 
-    <div style={{ height: '500px' }} />
+    <div style={{ height: '100px' }} />
     </Parallax>
     )
 }

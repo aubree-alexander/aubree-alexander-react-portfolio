@@ -39,9 +39,9 @@ function Contact() {
 
         
 
-        <section className='text-center page-content' id='contact-form'>
+        <section className='text-center page-content-short' id='contact-form'>
 
-<Parallax blur={0} bgImage="https://img.freepik.com/premium-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=2000" bgImageAlt="the cat" strength={500}>
+        <Parallax blur={0} bgImage="https://img.freepik.com/premium-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=2000" bgImageAlt="marble" strength={500}>
             
             <h1 id='contact-me-text' className='pt-3'>Contact me</h1>
         
@@ -68,7 +68,7 @@ function Contact() {
                 </form>
             </div>
 
-            <div style={{ height: '500px' }} />
+            <div style={{ height: '175px' }} />
             </Parallax>
         </section>
   );
