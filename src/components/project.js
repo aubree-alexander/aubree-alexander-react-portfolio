@@ -1,8 +1,12 @@
 import React from 'react'
 import '../style.css'
+import { Parallax } from 'react-parallax'
 
 function Project() {
     return (
+
+        <Parallax blur={0} bgImage="https://img.freepik.com/premium-photo/white-grey-marble-texture-background-natural-pattern-with-high-resolution-tiles-luxury-stone-floor-seamless-glitter-interior-exterior_38607-418.jpg?w=2000" bgImageAlt="the cat" strength={500}>
+
         <section id="projects" className="projects fade-in-text">
 
         <div className="projects-gallery">
@@ -93,6 +97,9 @@ function Project() {
         </div>
 
     </section>
+
+    <div style={{ height: '500px' }} />
+    </Parallax>
     )
 }
 

@@ -39,6 +39,8 @@ function Contact() {
     }
 
     return (
+
+        
         <section className='text-center page-content' id='contact-form'>
             
             <h1 id='contact-me-text'>Contact me</h1>
