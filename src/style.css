@@ -176,8 +176,8 @@ nav ul li a {
     opacity: 0.7;
 }
 
-#deep-thoughts {
-    background-image: url(../public/assets/images/deep-thoughts.png);
+#class-yearbook {
+    background-image: url(../public/assets/images/yearbook-screenshot.png);
     background-size: cover;
     opacity: 0.7;
 }

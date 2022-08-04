@@ -85,14 +85,14 @@ function Project() {
                 </div>
 
 
-                {/* Deep Thoughts */}
-                <div id='deep-thoughts' className="tile">
+                {/* Class Yearbook */}
+                <div id='class-yearbook' className="tile">
                     <div className='p-2'>
-                        <h3 className='tile-text-background'>Deep Thoughts</h3>
+                        <h3 className='tile-text-background'>Class yearbook</h3>
                     </div>
                     <div>
-                        <a href='#' target='_blank' className='tile-text-background p-2'>Deployed application</a>
-                        <a href='https://github.com/aubree-alexander/deep-thoughts' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                        <a href='https://wrapped-in-bananas.herokuapp.com/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/cthomas265/wrapped-in-bananas' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
                     </div>
                 </div>
 
