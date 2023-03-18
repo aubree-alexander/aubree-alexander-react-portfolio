@@ -4,9 +4,12 @@
 * React
 * CSS
 
-# Description/Purpose
+## Description/Purpose
 * Challenge for UW Extensions Coding Bootcamp.
 * This portfolio was completed using React.
+
+## Deployed application 
+https://aubree-alexander-portfolio.herokuapp.com
 
 
 ## User Story
