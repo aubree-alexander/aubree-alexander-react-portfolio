@@ -158,8 +158,8 @@ nav ul li a {
     width: 825px;
 }
 
-#tech-blog {
-    background-image: url('../public/assets/images/tech-blog.png');
+#run-buddy {
+    background-image: url('../public/assets/images/run-buddy-screenshot.png');
     background-size: cover;
     opacity: 0.7;
 }
@@ -190,7 +190,7 @@ nav ul li a {
 
 #streamline:hover, 
 #the-nasa-spirit:hover,
-#tech-blog:hover, 
+#run-buddy:hover, 
 #deep-thoughts:hover,
 #workday-scheduler:hover,
 #weather-dashboard:hover {

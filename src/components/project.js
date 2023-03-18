@@ -46,7 +46,7 @@ function Project() {
 
                 
                 {/* tech blog */}
-                <div id='tech-blog' className="tile">
+                {/* <div id='tech-blog' className="tile">
                     <div className='p-2'>
                         <h3 className='tile-text-background'>Tech Blog</h3>
                     </div>
@@ -54,11 +54,22 @@ function Project() {
                         <a href='https://mighty-hollows-58259.herokuapp.com/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
                         <a href='https://github.com/aubree-alexander/tech-blog' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
                     </div>
+                </div> */}
+
+                   {/* run buddy */}
+                   <div id='run-buddy' className="tile">
+                    <div className='p-2'>
+                        <h3 className='tile-text-background'>Run Buddy</h3>
+                    </div>
+                    <div>
+                        <a href='https://aubree-alexander.github.io/run-buddy/' target='_blank' className='tile-text-background p-2'>Deployed application</a>
+                        <a href='https://github.com/aubree-alexander/run-buddy' target='_blank' className='tile-text-background p-2'>GitHub repo</a>
+                    </div>
                 </div>
 
 
                 {/* weather dashboard */}
-                <div id='weather-dashboard' className="tile">
+                <div id='weather-dashboard' className="tile">   
                     <div className='p-2'>
                         <h3 className='tile-text-background'>Weather Dashboard</h3>
                     </div>

@@ -15,7 +15,7 @@ function Home() {
                         <div className='me-description col-md-6 mt-2'>
                             <h1 className='fade-in-text' id='about-me'>About Me</h1>
                                 <p className='fade-in-text'>
-                                    My name's Aubree. I'm an Anthropology and Archaeology enthusiast who took an interest in coding and now I'm a student at the University of Wisconsin Extensions Coding Bootcamp. I've created front end, back end, and full stack projects within this bootcamp and am continuing to hone my skills. Feel free to take a look at some of my projects in the Portfolio page!
+                                    Hello! My name's Aubree. I'm an Anthropology and Archaeology enthusiast turned full stack web developer. I recently graduated from the University of Wisconsin Extensions Coding Bootcamp. I've created front end, back end, and full stack projects within the bootcamp and am continuing to hone my skills. Feel free to take a look at some of my projects in the Portfolio page!
                                 </p>
                         </div>
                     </div>

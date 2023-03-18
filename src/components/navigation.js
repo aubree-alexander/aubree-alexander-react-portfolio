@@ -11,11 +11,11 @@ function Navigation() {
                         About Me
                     </li>
                 </NavLink>
-                <NavLink to = '/contact'>
+                {/* <NavLink to = '/contact'>
                     <li className='nav-item p-2'>
                         Contact
                     </li>
-                </NavLink>
+                </NavLink> */}
                 <NavLink to ='/portfolio'>
                     <li className='nav-item p-2'>
                         Portfolio
