@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style.css'
-import resume from '../tech-resume-2023.pdf'
+import resume from '../Alexander-Resume-2024.pdf'
 import { Parallax } from 'react-parallax'
 
 function Resume() {
